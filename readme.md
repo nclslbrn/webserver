@@ -11,7 +11,7 @@ It works on Ubuntu but can work on OSX with changing 'apache2' to 'apachectl' an
 ### Installation
 1. Download the script
 2. Apply permission to execute:
-  `$ chmod +x /path/to/virtualhost.sh`
+  `$ chmod +x /path/to/webserver/webserver.sh`
 3. OPTIONAL : make an shortcut to launch the script as an application.
    An example of shortcut for Elementary OS saved in ~/.local/share/applications/
    Change the path to the script and the icon. Saved it with the name of your choice with .desktop extension and add               permission to it.
