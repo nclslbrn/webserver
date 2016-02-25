@@ -48,3 +48,21 @@ This script start services (Apache and mysql) and then launch a browser at http:
     Exec=gksudo sh /path/to/the/script/webserver/webserver.sh restart
     TargetEnvironment=Unity
     ```
+
+### Usage
+Start :
+`sudo sh /path/to/webserver.sh start`
+
+Stop :
+`sudo sh /path/to/webserver.sh stop`
+
+Restart :
+`sudo sh /path/to/webserver.sh restart`
+
+Browser will open http://localhost only on start command.
+### License
+
+Licensed under What the Fuck You Want to Public License
+<a href="http://www.wtfpl.net/"><img
+       src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
+       width="80" height="15" alt="WTFPL" /></a>
