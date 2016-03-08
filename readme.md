@@ -5,7 +5,7 @@
 For people who desactivate apache and mysql auto-start (on OS start-up), bored to type on terminal one command to launch Apache and an other to start MySql and then open browser.
 </p>
 <p>
-This script start services (Apache and mysql) and then launch a browser at http://localhost. It work on Ubuntu but can also work on OSX with changing 'apache2' to 'apachectl' and 'mysql' to '/usr/local/mysql/support-files/mysql.server'. You can change / add others service like maridb, dropboox, etc.
+This script start services (Apache and mysql) and then launch a browser at http://localhost. It work on Ubuntu but can also work on OSX (el capitan) with changing 'service apache2' to 'apachectl' and 'service mysql' to '/usr/local/mysql/support-files/mysql.server'. You can change / add others service like maridb, dropboox, etc.
 </p>
 
 -------
