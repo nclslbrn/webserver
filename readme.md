@@ -18,8 +18,7 @@ This script start services (Apache and mysql) and then launch a browser at http:
 3. OPTIONAL : make an shortcut to launch the script as an application.
    An example of shortcut for Elementary OS saved in ~/.local/share/applications/
    Change the path to the script and the icon. Saved it with the name of your choice with .desktop extension and add permission to it.
-
-  ```
+```
   [Desktop Entry]
     Name=lamp
     GenericName=lamp
@@ -47,7 +46,7 @@ This script start services (Apache and mysql) and then launch a browser at http:
     Name=Restart
     Exec=gksudo sh /path/to/the/script/webserver/webserver.sh restart
     TargetEnvironment=Unity
-    ```
+```
 
 ### Usage
 Start :
